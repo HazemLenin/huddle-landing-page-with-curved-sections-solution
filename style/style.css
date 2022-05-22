@@ -195,7 +195,7 @@ header img {
   display: block;
   width: 100%;
   height: 40vw;
-  background-image: url("/images/bg-section-top-mobile-1.svg");
+  background-image: url("../images/bg-section-top-mobile-1.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
@@ -204,7 +204,7 @@ header img {
 @media screen and (min-width: 899px) {
   .hero::after {
     height: 12vw;
-    background-image: url("/images/bg-section-top-desktop-1.svg");
+    background-image: url("../images/bg-section-top-desktop-1.svg");
   }
 }
 
@@ -303,7 +303,7 @@ header img {
 @media screen and (min-width: 899px) {
   .flowing-conversations::before {
     height: 12vw;
-    background-image: url("/images/bg-section-bottom-desktop-1.svg");
+    background-image: url("../images/bg-section-bottom-desktop-1.svg");
   }
 }
 
@@ -321,7 +321,7 @@ header img {
 @media screen and (min-width: 899px) {
   .flowing-conversations::after {
     height: 12vw;
-    background-image: url("/images/bg-section-top-desktop-2.svg");
+    background-image: url("../images/bg-section-top-desktop-2.svg");
   }
 }
 
@@ -409,7 +409,7 @@ header img {
 @media screen and (min-width: 899px) {
   .ready::before {
     height: 10vw;
-    background-image: url("/images/bg-section-bottom-desktop-2.svg");
+    background-image: url("../images/bg-section-bottom-desktop-2.svg");
   }
 }
 
@@ -427,7 +427,7 @@ header img {
 @media screen and (min-width: 899px) {
   .ready::after {
     height: 11vw;
-    background-image: url("/images/bg-footer-top-desktop.svg");
+    background-image: url("../images/bg-footer-top-desktop.svg");
   }
 }
 
