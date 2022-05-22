@@ -1,0 +1,49 @@
+.btn-header {
+    width: 80px;
+    height: 25px;
+    border: solid $pink 1px;
+    padding: 3px 9px;
+    border-radius: $border-radius;
+    color: $pink;
+    transition: all .3s;
+    font-size: .7em;
+
+    &:hover {
+        border-color: $light-pink;
+        color: $light-pink;
+    }
+
+    @include breakpoint(large) {
+        width: 140px;
+        height: 40px;
+        padding: 10px 30px;
+    }
+}
+
+.btn-hero {
+    background: $pink;
+    border-radius: $border-radius;
+    color: white;
+    transition: all .3s;
+    text-align: center;
+    font-size: .7em;
+
+    width: 200px;
+    height: 40px;
+
+    padding: 10px 40px;
+
+    box-shadow: 0 8px 8px 4px #0202021a;
+
+    &:hover {
+        background: $light-pink;
+    }
+
+    @include breakpoint(large) {
+        width: 400px;
+        height: 80px;
+        padding: 25px 100px;
+        font-size: .9em;
+
+    }
+}

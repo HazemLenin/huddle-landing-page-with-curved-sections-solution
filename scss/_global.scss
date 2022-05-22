@@ -1,0 +1,24 @@
+html {
+    font-size: 100%;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: calc(1rem + .5vw);
+    font-family: $body-font;
+    color: $very-dark-cyan;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: $headings-font;
+}

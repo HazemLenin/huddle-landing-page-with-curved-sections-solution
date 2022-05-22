@@ -1,0 +1,51 @@
+.ready {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        text-align: center;
+        padding: 75px 70px 250px 70px;
+        
+        h2 {
+            font-size: 1.2em;
+            @include breakpoint(medium) {
+                font-size: 1.8em;
+            }
+        }
+    }
+
+    &::before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 27vw;
+        background-image: url('../images/bg-section-bottom-mobile-2.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+
+        @include breakpoint(medium) {
+            height: 10vw;
+            background-image: url('/images/bg-section-bottom-desktop-2.svg');
+        }
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 14vw;
+        background-image: url('../images/bg-footer-top-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+
+        @include breakpoint(medium) {
+            height: 11vw;
+            background-image: url('/images/bg-footer-top-desktop.svg');
+        }
+    }
+
+
+}
