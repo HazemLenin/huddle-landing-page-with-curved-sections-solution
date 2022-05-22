@@ -13,7 +13,7 @@
         color: $light-pink;
     }
 
-    @include breakpoint(large) {
+    @include breakpoint(medium) {
         width: 140px;
         height: 40px;
         padding: 10px 30px;
@@ -39,7 +39,7 @@
         background: $light-pink;
     }
 
-    @include breakpoint(large) {
+    @include breakpoint(medium) {
         width: 400px;
         height: 80px;
         padding: 25px 100px;

@@ -8,7 +8,7 @@ header {
         width: 100px;
     }
 
-    @include breakpoint(large) {
+    @include breakpoint(medium) {
         padding: 80px;
         
         img {

@@ -19,7 +19,7 @@
             }
         }
 
-        @include breakpoint(large) {
+        @include breakpoint(medium) {
             padding: 80px 150px 80px 150px;
             text-align: left;
             flex-direction: row-reverse;

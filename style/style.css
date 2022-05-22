@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5 {
   color: #ff8fd8;
 }
 
-@media screen and (min-width: 999px) {
+@media screen and (min-width: 899px) {
   .btn-header {
     width: 140px;
     height: 40px;
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
   background: #ff8fd8;
 }
 
-@media screen and (min-width: 999px) {
+@media screen and (min-width: 899px) {
   .btn-hero {
     width: 400px;
     height: 80px;
@@ -94,7 +94,7 @@ header img {
   width: 100px;
 }
 
-@media screen and (min-width: 999px) {
+@media screen and (min-width: 899px) {
   header {
     padding: 80px;
   }
@@ -118,14 +118,14 @@ header img {
   gap: 50px;
   margin-top: 100px;
   text-align: center;
-  padding: 0 40px;
+  padding: 40px;
 }
 
 .hero .container h1 {
   font-size: 1.4em;
 }
 
-@media screen and (min-width: 999px) {
+@media screen and (min-width: 899px) {
   .hero .container h1 {
     font-size: 2em;
   }
@@ -142,10 +142,9 @@ header img {
   margin: 60px 0 120px 0;
 }
 
-@media screen and (min-width: 999px) {
+@media screen and (min-width: 899px) {
   .hero .container {
-    margin-top: 160px;
-    padding: 0 210px;
+    padding: 160px 210px 137px 210px;
   }
 }
 
@@ -235,7 +234,7 @@ header img {
   font-size: .7em;
 }
 
-@media screen and (min-width: 999px) {
+@media screen and (min-width: 899px) {
   .grow-together .container {
     padding: 80px 150px 80px 150px;
     text-align: left;
@@ -275,9 +274,9 @@ header img {
   font-size: .7em;
 }
 
-@media screen and (min-width: 999px) {
+@media screen and (min-width: 899px) {
   .flowing-conversations .container {
-    padding: 0 150px 80px 150px;
+    padding: 190px 150px 100px 150px;
     text-align: left;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -355,7 +354,7 @@ header img {
   font-size: .7em;
 }
 
-@media screen and (min-width: 999px) {
+@media screen and (min-width: 899px) {
   .your-users .container {
     padding: 60px 150px 60px 150px;
     text-align: left;
@@ -392,6 +391,12 @@ header img {
 @media screen and (min-width: 899px) {
   .ready .container h2 {
     font-size: 1.8em;
+  }
+}
+
+@media screen and (min-width: 899px) {
+  .ready .container {
+    padding-top: 175px;
   }
 }
 

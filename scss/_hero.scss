@@ -7,14 +7,13 @@
         margin-top: 100px;
         text-align: center;
 
-        padding: 0 40px;
-
+        padding: 40px;
         
         
         h1 {
             font-size: 1.4em;
             
-            @include breakpoint(large) {
+            @include breakpoint(medium) {
                 font-size: 2em;
             }
         }
@@ -31,9 +30,8 @@
             margin: 60px 0 120px 0;
         }
         
-        @include breakpoint(large) {
-            margin-top: 160px;
-            padding: 0 210px;
+        @include breakpoint(medium) {
+            padding: 160px 210px 137px 210px;
         }
         
         .analytics {
